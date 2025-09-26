@@ -5,6 +5,6 @@ int age= 20;
 
 int main() {
 
- cout << "I am " << age <<" years old";
+ cout << "I am " << age << " years old";
  
 }
