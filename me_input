@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
+    cout << "I am " << age << " years old";
+    if (age >= 20) {
+        cout << " and ready to code!";
+    } else if (age >= 15) {
+        cout << " and still learning!";
+    } else { 
+        cout << " and play games";
+    }
+}
