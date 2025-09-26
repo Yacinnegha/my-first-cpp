@@ -6,6 +6,7 @@ int main() {
         int age;
         cout << "Enter your age (attempt " << i+1 << "): ";
         cin >> age;
+       if (age>=0) {
         cout << "I am " << age << " years old";
         if (age >= 20) {
             cout << " and ready to code!\n";
@@ -14,5 +15,8 @@ int main() {
         } else {
             cout << " and still learning!\n";
         }
+      }
+     else { cout << "invalid age\n";
+     }
     }
 }
